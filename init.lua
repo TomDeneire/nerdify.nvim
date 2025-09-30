@@ -39,13 +39,13 @@ function M.style(flavour, input, spacing)
 end
 
 -- test
-print(M.style("circles", "hello world 1234"))
-print(M.style("circles", "hello world 1234", 1))
-print(M.style("circles_outline", "hello world 1234"))
-print(M.style("circles_outline", "hello world 1234", 1))
-print(M.style("box", "hello world 1234"))
-print(M.style("box", "hello world 1234", 1))
-print(M.style("box_outline", "hello world 1234"))
-print(M.style("box_outline", "hello world 1234", 1))
+local input = "abcdefghijklmnopqrstuvwxyz 0123456789"
+local flavours = { "circles", "circles_outline", "box", "box_outline" }
+local spacings = { 0, 1 }
 
+for _, flavour in ipairs(flavours) do
+    for _, spacing in ipairs(spacings) do
+        print(M.style(flavour, input, spacing))
+    end
+end
 return M
