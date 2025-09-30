@@ -3,6 +3,7 @@ local M = {}
 function M.circles()
     -- alphanumeric
     -- nf-md-alpha_a_circle
+    -- nf-md-numeric_1_circle
     return {
         ["a"] = "󰯬",
         ["b"] = "󰯯",
@@ -147,9 +148,6 @@ function M.box()
     }
 end
 
---nf-md-alpha_a_circle
---nf-md-numeric_0_circle
---
 --nf-md-alpha_a_box_outline
 --
 --nf-md-numeric_0_box_multiple
