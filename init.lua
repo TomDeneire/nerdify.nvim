@@ -28,6 +28,8 @@ function M.style(flavour, input, spacing)
         replacer = make_replacer(style.circles())
     elseif flavour == "circles_outline" then
         replacer = make_replacer(style.circles_outline())
+    elseif flavour == "box" then
+        replacer = make_replacer(style.box())
     else
         return input
     end
@@ -39,5 +41,7 @@ print(M.style("circles", "hello world 1234"))
 print(M.style("circles", "hello world 1234", 1))
 print(M.style("circles_outline", "hello world 1234"))
 print(M.style("circles_outline", "hello world 1234", 1))
+print(M.style("box", "hello world 1234"))
+print(M.style("box", "hello world 1234", 1))
 
 return M
