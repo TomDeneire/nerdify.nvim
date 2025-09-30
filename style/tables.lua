@@ -105,6 +105,24 @@ function M.numeric_box_multiple()
     }
 end
 
+-- Numeric box multiple outline
+-- Usage: only numeric
+-- nf-md-numeric_0_box_multiple_outline
+function M.numeric_box_multiple_outline()
+    return {
+        ["0"] = "󰎢",
+        ["1"] = "󰎥",
+        ["2"] = "󰎨",
+        ["3"] = "󰎫",
+        ["4"] = "󰎲",
+        ["5"] = "󰎯",
+        ["6"] = "󰎴",
+        ["7"] = "󰎷",
+        ["8"] = "󰎺",
+        ["9"] = "󰎽",
+    }
+end
+
 function M.numeric()
     -- only numeric
     -- nf-md-numeric (except for 0)
@@ -210,10 +228,6 @@ function M.box_outline()
         ["9"] = "󰎾",
     }
 end
-
---
---
---nf-md-numeric_0_box_multiple
 
 -- nf-md-numeric_0_box_multiple_outline
 

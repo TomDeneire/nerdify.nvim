@@ -36,6 +36,8 @@ function M.style(flavour, input, spacing)
         replacer = make_replacer(style.numeric())
     elseif flavour == "numeric_box_multiple" then
         replacer = make_replacer(style.numeric_box_multiple())
+    elseif flavour == "numeric_box_multiple_outline" then
+        replacer = make_replacer(style.numeric_box_multiple_outline())
     else
         return input
     end
@@ -44,7 +46,8 @@ end
 
 -- test
 local input = "abcdefghijklmnopqrstuvwxyz 0123456789"
-local flavours = { "circles", "circles_outline", "box", "box_outline", "numeric", "numeric_box_multiple" }
+local flavours = { "circles", "circles_outline", "box", "box_outline", "numeric", "numeric_box_multiple",
+    "numeric_box_multiple_outline" }
 local spacings = { 0, 1 }
 
 for _, flavour in ipairs(flavours) do
@@ -52,4 +55,5 @@ for _, flavour in ipairs(flavours) do
         print(M.style(flavour, input, spacing))
     end
 end
+
 return M
