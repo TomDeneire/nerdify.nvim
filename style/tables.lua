@@ -87,11 +87,29 @@ function M.circles_outline()
     }
 end
 
+-- Numeric box multiple
+-- Usage: only numeric
+-- nf-md-numeric_0_box_multiple
+function M.numeric_box_multiple()
+    return {
+        ["0"] = "󰼎",
+        ["1"] = "󰼏",
+        ["2"] = "󰼐",
+        ["3"] = "󰼑",
+        ["4"] = "󰼒",
+        ["5"] = "󰼓",
+        ["6"] = "󰼔",
+        ["7"] = "󰼕",
+        ["8"] = "󰼖",
+        ["9"] = "󰼗",
+    }
+end
+
 function M.numeric()
     -- only numeric
     -- nf-md-numeric (except for 0)
     return {
-        ["0"] = "",
+        ["0"] = "",
         ["1"] = "󰬺",
         ["2"] = "󰬻",
         ["3"] = "󰬼",
@@ -198,6 +216,5 @@ end
 --nf-md-numeric_0_box_multiple
 
 -- nf-md-numeric_0_box_multiple_outline
--- eentje met logo's van programmeertalen
 
 return M
