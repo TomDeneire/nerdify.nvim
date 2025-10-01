@@ -28,7 +28,6 @@ local function make_replacer(map)
             table.insert(out, map[ch] or ch)
         end
         local sep = ""
-        -- todo: eventueel spacing = 0.5 (workaround)
         if spacing == nil then spacing = 0 end
         if spacing > 0 then
             sep = string.rep(" ", spacing)
@@ -36,8 +35,6 @@ local function make_replacer(map)
         return table.concat(out, sep)
     end
 end
-
-
 
 M.style = function(flavour, input, spacing)
     local replacer
