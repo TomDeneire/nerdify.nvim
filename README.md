@@ -1,4 +1,4 @@
-# nerdify
+# ✨ nerdify
 
 **Nerdify** is a small Neovim plugin to transform text into different styles (circles, boxes, outlines, …) using [Nerd Fonts](https://github.com/ryanoasis/nerd-fonts) glyphs.
 
@@ -6,22 +6,21 @@ Think of it as a fun way to change the lettering inside your terminal editor, so
 
 ---
 
-## Motivation
+## 🎯 Motivation
 
 I always wanted the possibility to change the lettering in Neovim, but since we’re in a terminal environment that’s not really possible.  
+
 This plugin is the next best thing: it maps your characters to styled alternatives (using Nerd Fonts glyphs) so you can quickly restyle text inline without leaving Neovim.
 
----
 
-## Prerequisites
+## ⚙️ Prerequisites
 
 - A [Nerd Font](https://github.com/ryanoasis/nerd-fonts) patched font installed and active in your terminal.
 - If you need help installing a Nerd Font, check out [this guide](https://www.nerdfonts.com/font-installation).
 - Neovim ≥ 0.7 (tested with Lua runtime)  
 
----
 
-## Installation
+## 📦 Installation
 
 With [lazy.nvim](https://github.com/folke/lazy.nvim):
 
@@ -34,15 +33,15 @@ With [lazy.nvim](https://github.com/folke/lazy.nvim):
 }
 ```
 
-## usage
+## 🚀 Usage
 
 ```lua
 require("nerdify").style("circles", "hello world")
 ```
 
-## Available flavour
+## 🎨 Available flavours
 
-Some styles have more characters than others, so you can choose the one that fits your needs.
+Some flavours have more characters than others, so you can choose the one that fits your needs.
 
 ### circles
 
@@ -58,12 +57,11 @@ Some styles have more characters than others, so you can choose the one that fit
 
 ### numeric_box_multiple_outline
 
-
-## Roadmap
+## 🛣️ Roadmap
 
 -  Add more style tables (arrows, fancy, etc.)
 
-## Thanks to
+## 🙏 Thanks to
 
 - [nerd-fonts](https://github.com/ryanoasis/nerd-fonts)
 - [nvim-plugin-template](https://github.com/ellisonleao/nvim-plugin-template)
