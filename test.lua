@@ -1,7 +1,7 @@
 local nerdify = require("lua.nerdify")
 
 -- test
-local input = "abcdefghijklmnopqrstuvwxyz 0123456789 +-=?!#%<>,."
+local input = "abcdefghijklmnopqrstuvwxyz 0123456789 +-!%<>*,.?=#"
 local flavours = {
     "circles",
     "circles_outline",
