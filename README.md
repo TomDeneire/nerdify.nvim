@@ -15,7 +15,8 @@ This plugin is the next best thing: it maps your characters to styled alternativ
 
 ## Prerequisites
 
-- A [Nerd Font](https://github.com/ryanoasis/nerd-fonts) patched font installed and active in your terminal  
+- A [Nerd Font](https://github.com/ryanoasis/nerd-fonts) patched font installed and active in your terminal.
+- If you need help installing a Nerd Font, check out [this guide](https://www.nerdfonts.com/font-installation).
 - Neovim ≥ 0.7 (tested with Lua runtime)  
 
 ---
@@ -26,7 +27,7 @@ With [lazy.nvim](https://github.com/folke/lazy.nvim):
 
 ```lua
 {
-  "yourname/stylez",
+  "TomDeneire/nerdify.nvim",
   config = function()
     -- optional setup later
   end
@@ -36,24 +37,26 @@ With [lazy.nvim](https://github.com/folke/lazy.nvim):
 ## usage
 
 ```lua
-require("stylez").style("circles", "hello world")
+require("nerdify").style("circles", "hello world")
 ```
 
-Available flavours are:
+## Available flavour
 
-- circles
+Some styles have more characters than others, so you can choose the one that fits your needs.
 
-- circles_outline
+### circles
 
-- box
+### circles_outline
 
-- box_outline
+### box
 
-- numeric
+### box_outline
 
-- numeric_box_multiple
+### numeric
 
-- numeric_box_multiple_outline
+### numeric_box_multiple
+
+### numeric_box_multiple_outline
 
 
 ## Roadmap
@@ -62,6 +65,6 @@ Available flavours are:
 
 ## Thanks to
 
-- https://github.com/ryanoasis/nerd-fonts
-- https://github.com/ellisonleao/nvim-plugin-template
+- [nerd-fonts](https://github.com/ryanoasis/nerd-fonts)
+- [nvim-plugin-template](https://github.com/ellisonleao/nvim-plugin-template)
 
