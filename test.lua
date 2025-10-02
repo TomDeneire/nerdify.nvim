@@ -1,4 +1,6 @@
-local nerdify = require("lua.nerdify")
+package.path = "./lua/?.lua;./lua/?/init.lua;" .. package.path
+
+local nerdify = require("nerdify")
 
 -- test
 local input = "abcdefghijklmnopqrstuvwxyz 0123456789 +-!%<>*,.?=#"

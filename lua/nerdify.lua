@@ -1,4 +1,4 @@
-local tables = require("lua.nerdify.tables")
+local tables = require("nerdify.tables")
 
 ---@class Config
 ---@field opt string Your config option
