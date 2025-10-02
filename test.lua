@@ -1,4 +1,4 @@
-local fontasy = require("lua.fontasy")
+local nerdify = require("lua.nerdify")
 
 -- test
 local input = "abcdefghijklmnopqrstuvwxyz 0123456789 +-=?!#%<>,.:"
@@ -16,7 +16,7 @@ local spacings = { 0, 1 }
 for _, flavour in ipairs(flavours) do
     print("# " .. flavour)
     for _, spacing in ipairs(spacings) do
-        print(fontasy.style(flavour, input, spacing))
+        print(nerdify.style(flavour, input, spacing))
     end
     print("\n")
 end

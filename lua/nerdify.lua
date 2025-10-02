@@ -1,4 +1,4 @@
-local tables = require("lua.fontasy.tables")
+local tables = require("lua.nerdify.tables")
 
 ---@class Config
 ---@field opt string Your config option
