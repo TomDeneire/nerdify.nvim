@@ -50,19 +50,7 @@ require("nerdify").style("circles", "hello world")
 
 Some flavours have more characters than others, so you can choose the one that fits your needs.
 
-### circles
-
-### circles_outline
-
-### box
-
-### box_outline
-
-### numeric
-
-### numeric_box_multiple
-
-### numeric_box_multiple_outline
+![flavours.png](https://github.com/TomDeneire/nerdify.nvim/blob/main/flavours.png)
 
 ## Use cases
 
