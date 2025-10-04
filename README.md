@@ -66,9 +66,11 @@ Use this plugin to style various Neovim UI elements.
 
 ### Statusline
 
-### Bufferline
+![lualine.png](https://github.com/TomDeneire/nerdify.nvim/blob/main/lualine.png)
 
 ### Pickers
+
+![telescope.png](https://github.com/TomDeneire/nerdify.nvim/blob/main/telescope.png)
 
 ## 🛣️ Roadmap
 
