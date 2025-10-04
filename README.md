@@ -16,9 +16,16 @@ This plugin is the next best thing: it maps your characters to styled alternativ
 ## ⚙️ Prerequisites
 
 - A [Nerd Font](https://github.com/ryanoasis/nerd-fonts) patched font installed and active in your terminal.
-- If you need help installing a Nerd Font, check out [this guide](https://www.nerdfonts.com/font-installation).
+- If you need help installing a Nerd Font, check out [this tool](https://github.com/officialrajdeepsingh/nerd-fonts-installer).
 - Neovim ≥ 0.7 (tested with Lua runtime)  
 
+To verify the conversion to Nerd font glyphs happens correctly in your terminal environment you can run the repository's test:
+
+``` bash
+git clone https://github.com/TomDeneire/nerdify.nvim
+cd nerdify.nvim
+make test
+```
 
 ## 📦 Installation
 
@@ -56,6 +63,16 @@ Some flavours have more characters than others, so you can choose the one that f
 ### numeric_box_multiple
 
 ### numeric_box_multiple_outline
+
+## Use cases
+
+Use this plugin to style various Neovim UI elements.
+
+### Statusline
+
+### Bufferline
+
+### Pickers
 
 ## 🛣️ Roadmap
 
